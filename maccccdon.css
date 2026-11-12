@@ -1,0 +1,99 @@
+ body {
+
+  background-image: url("https://raw.githack.com/Milana03/mac/d544d2246bf9da3a1aebc3d5396b014b50e4b119/mac.jfif"); 
+  
+  background-size: cover;
+  
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  
+  margin: 0;
+
+  padding: 0;
+
+  height: 4000px;
+
+}
+
+#container {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 400%;
+
+  height: 100vh;
+
+  display: flex;
+
+    }
+	
+#container .section {
+
+  position: relative;
+
+  width: 100%;
+
+  height: 100%;
+
+  padding: 100px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+#container .section .content {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+#container .section .content .text {
+
+  margin-right: 50px;
+
+  max-width: 400px;
+
+  color: red;
+
+}
+
+#container .section .content .text h1{
+
+  margin: 0;
+
+  padding: 0;
+
+  font-size: 3em;
+
+}
+
+#container .section .content .text p{
+
+  font-size: 1.1em;
+
+}
+
+#container .section .content img {
+
+  min-width: 400px;
+
+}
+
+
